@@ -1,3 +1,9 @@
+$(document).ready(function () {
+	// 当文档加载完毕后，尝试播放音乐
+	var musicIframe = document.querySelector('iframe');
+	musicIframe.src = musicIframe.src; // 刷新iframe的src属性以尝试播放音乐
+});
+
 $('#login-button').click(function (event) {
 	var userName = document.getElementById("userName").value;
 	var pwd = document.getElementById("pwd").value;
