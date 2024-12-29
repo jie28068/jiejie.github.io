@@ -12,7 +12,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('戒戒同学|生日快乐|happy birthday|#countdown 3|');
+      S.UI.simulate('戒戒|生日快乐|happy birthday|#countdown 3|');
     }
 
     S.Drawing.loop(function () {
