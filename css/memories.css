@@ -1706,7 +1706,7 @@
 
 	/* 盒子 */
 	.ly-box21 {
-		width: 15%;
+		width: 30%;
 		height: 600px;
 		border: 2px #CCC;
 		background-color: #fff;
@@ -2320,7 +2320,7 @@
 
 	/* 盒子 */
 	.ly-box32 {
-		width: 50%;
+		width: 70%;
 		height: 30%;
 		border: 2px #CCC;
 		background-color: #fff;
@@ -3465,12 +3465,12 @@
 .ly-txt84 {
 	text-indent: 2em;
 	font-family: Microsoft YaHei;
-	font-size: 15px;
+	font-size: 20px;
 	font-color: #000;
 	position: absolute;
 	margin-left: 30px;
 	margin-right: 30px;
-	top: 12%;
+	top: 30%;
 	opacity: 1;
 	transition: all 33s;
 	height: 0;

@@ -1,8 +1,6 @@
 $('#login-button').click(function (event) {
 	var userName = document.getElementById("userName").value;
 	var pwd = document.getElementById("pwd").value;
-	var musicIframe = document.querySelector('iframe');
-	musicIframe.src = musicIframe.src; // 刷新iframe的src属性以尝试播放音乐
 	//修改密码请改此处
 	if (userName == "朱琳" && pwd == "1215") {
 		event.preventDefault();
