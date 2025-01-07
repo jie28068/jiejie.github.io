@@ -16,6 +16,6 @@ $('#login-button').click(function (event) {
 		setTimeout(function () { location.href = "page.html"; }, 2000);
 	}
 	else {
-		alert("密码是你的生日哦!");
+		alert("动动你聪明的小脑壳(四位数)!");
 	}
 });
