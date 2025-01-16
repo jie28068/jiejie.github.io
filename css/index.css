@@ -75,6 +75,7 @@ body :-ms-input-placeholder {
   height: 400px;
   text-align: center;
   color: #FFC0CB;
+  font-weight: bold;
   /* 设置为特定的颜色 */
 }
 
